@@ -112,6 +112,7 @@ frequencia = nltk.FreqDist(lista_normalizada)
 
 lista_teste = cria_dados_teste("C:\\Users\\User\\Desktop\\Projetos - Pycharm\\ComecandoPython\\Python - Alura\\Corretor ortográfico - aplicando tecnicas de NLP\\Dados do corretor\\palavras.txt")
 avaliador(lista_teste, palavras_unicas)
+print("teste")
 
 
 
