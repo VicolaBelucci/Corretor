@@ -1,7 +1,7 @@
 import nltk
 nltk.download('punkt')
 
-with open("C:\\Users\\User\\Desktop\\Projetos - Pycharm\\ComecandoPython\\Python - Alura\\Corretor ortográfico - aplicando tecnicas de NLP\\Dados do corretor\\artigos.txt", "r", encoding='utf-8') as f:
+with open("\Dados do corretor\\artigos.txt", "r", encoding='utf-8') as f:
     artigos = f.read()
 def separa_palavra(lista_tokens):
     lista_palavras = []
@@ -110,7 +110,7 @@ palavras_unicas = set(lista_normalizada)
 
 frequencia = nltk.FreqDist(lista_normalizada)
 
-lista_teste = cria_dados_teste("C:\\Users\\User\\Desktop\\Projetos - Pycharm\\ComecandoPython\\Python - Alura\\Corretor ortográfico - aplicando tecnicas de NLP\\Dados do corretor\\palavras.txt")
+lista_teste = cria_dados_teste("\Dados do corretor\\palavras.txt")
 avaliador(lista_teste, palavras_unicas)
 print("teste")
 
